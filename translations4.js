@@ -27,6 +27,9 @@ const translations = {
         sunYingsha: '孙颖莎',
         wangChuqin: '王楚钦',
         xuXin: '许昕',
+        wangManyu: '王曼昱',
+        wangYidi: '王艺迪',
+        linShidong: '林诗栋',
         viewMore: '查看更多运动员'
     },
     en: {
@@ -57,6 +60,9 @@ const translations = {
         sunYingsha: 'Sun Yingsha',
         wangChuqin: 'Wang Chuqin',
         xuXin: 'Xu Xin',
+        wangManyu: 'Wang Manyu',
+        wangYidi: 'Wang Yidi',
+        linShidong: 'Lin Shidong',
         viewMore: 'View More Athletes'
     }
 }; 
