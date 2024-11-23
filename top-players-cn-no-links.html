@@ -105,9 +105,39 @@
             background-color: #2F4F9F;
             color: white;
         }
+
+        .related-articles {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        .related-link {
+            background-color: #DC2626;
+            color: white;
+            padding: 20px 40px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s;
+            text-align: center;
+        }
+        
+        .related-link:hover {
+            background-color: #BC1515;
+        }
+
+        .blue-link {
+            background-color: #1E3A8A !important;
+        }
+        
+        .blue-link:hover {
+            background-color: #2F4F9F !important;
+        }
     </style>
-    <script src="translations4.js"></script>
-    <script src="languageSwitch4.js"></script>
+    <script src="translations-top.js"></script>
+    <script src="languageSwitch-top.js"></script>
 </head>
 <body>
     <button class="language-switch" onclick="toggleLanguage()" data-translate="switchLang">English</button>
@@ -147,74 +177,79 @@
             <!-- 第二行 -->
             <div class="player-card">
                 <img src="assets/images/ml.jpg" alt="王艺迪" class="player-image">
-                <div class="player-name">王艺迪</div>
+                <div class="player-name" data-translate="wangYidi">王艺迪</div>
             </div>
             <div class="player-card">
                 <img src="assets/images/cm.jpg" alt="陈梦" class="player-image">
-                <div class="player-name">陈梦</div>
+                <div class="player-name" data-translate="chenMeng">陈梦</div>
             </div>
             <div class="player-card">
                 <img src="assets/images/xx.jpg" alt="樊振东" class="player-image">
-                <div class="player-name">樊振东</div>
+                <div class="player-name" data-translate="fanZhendong">樊振东</div>
             </div>
             <div class="player-card">
                 <img src="assets/images/fl.jpg" alt="菲利克斯·勒布伦" class="player-image">
-                <div class="player-name">菲利克斯·勒布伦</div>
+                <div class="player-name" data-translate="lebrun">菲利克斯·勒布伦</div>
             </div>
 
             <!-- 第三行 -->
             <div class="player-card">
                 <img src="assets/images/ztxn.jpg" alt="早田希娜" class="player-image">
-                <div class="player-name">早田希娜</div>
+                <div class="player-name" data-translate="hayataNina">早田希娜</div>
             </div>
             <div class="player-card">
                 <img src="assets/images/zbmh.jpg" alt="张本美和" class="player-image">
-                <div class="player-name">张本美和</div>
+                <div class="player-name" data-translate="harimotoMiwa">张本美和</div>
             </div>
             <div class="player-card">
                 <img src="assets/images/ljk.jpg" alt="梁靖崑" class="player-image">
-                <div class="player-name">梁靖崑</div>
+                <div class="player-name" data-translate="liangJingkun">梁靖崑</div>
             </div>
             <div class="player-card">
                 <img src="assets/images/hugo.jpg" alt="卡尔德拉诺" class="player-image">
-                <div class="player-name">雨果·卡尔德拉诺</div>
+                <div class="player-name" data-translate="calderano">雨果·卡尔德拉诺</div>
             </div>
 
             <!-- 第四行 -->
             <div class="player-card">
                 <img src="assets/images/cxt.jpg" alt="陈幸同" class="player-image">
-                <div class="player-name">陈幸同</div>
+                <div class="player-name" data-translate="chenXingtong">陈幸同</div>
             </div>
             <div class="player-card">
                 <img src="assets/images/dtsy.jpg" alt="大藤沙月" class="player-image">
-                <div class="player-name">大藤沙月</div>
+                <div class="player-name" data-translate="ofuSatsuki">大藤沙月</div>
             </div>
             <div class="player-card">
                 <img src="assets/images/zbzh.jpg" alt="张本智和" class="player-image">
-                <div class="player-name">张本智和</div>
+                <div class="player-name" data-translate="harimotoTomokazu">张本智和</div>
             </div>
             <div class="player-card">
                 <img src="assets/images/malong.jpg" alt="马龙" class="player-image">
-                <div class="player-name">马龙</div>
+                <div class="player-name" data-translate="maLong">马龙</div>
             </div>
 
             <!-- 第五行 -->
             <div class="player-card">
                 <img src="assets/images/zyj.jpg" alt="郑怡静" class="player-image">
-                <div class="player-name">郑怡静</div>
+                <div class="player-name" data-translate="chengIJing">郑怡静</div>
             </div>
             <div class="player-card">
                 <img src="assets/images/ytmc.jpg" alt="伊藤美诚" class="player-image">
-                <div class="player-name">伊藤美诚</div>
+                <div class="player-name" data-translate="itoMima">伊藤美诚</div>
             </div>
             <div class="player-card">
                 <img src="assets/images/lgy.jpg" alt="林高远" class="player-image">
-                <div class="player-name">林高远</div>
+                <div class="player-name" data-translate="linGaoyuan">林高远</div>
             </div>
             <div class="player-card">
                 <img src="assets/images/mljd.jpeg" alt="莫雷加德" class="player-image">
-                <div class="player-name">莫雷加德</div>
+                <div class="player-name" data-translate="moregard">莫雷加德</div>
             </div>
+        </div>
+        
+        <div class="related-articles">
+            <a href="#" class="related-link" data-translate="sportsTerms">体育术语</a>
+            <a href="#" class="related-link blue-link" data-translate="athleteTitles">运动员称号</a>
         </div>
     </div>
 </body>

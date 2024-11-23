@@ -136,6 +136,16 @@
             cursor: pointer;
             z-index: 1000;
         }
+        .banner-image {
+            max-width: 100%;
+            height: auto;
+            border: 3px solid #1E3A8A;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: block;
+            margin: 0 auto;
+            object-fit: cover;
+        }
     </style>
     <script src="translations4.js"></script>
     <script src="languageSwitch4.js"></script>
@@ -153,7 +163,7 @@
             <a href="video-grid-page.html" data-translate="aboutMore">关于更多</a>
             <a href="article-page.html" data-translate="history">历史</a>
         </nav>
-        <img src="test.jpeg" alt="大照片" style="max-width: 100%; height: auto; border: 3px solid #1E3A8A; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <img src="test.jpeg" alt="大照片" class="banner-image">
     </div>
 
     <!-- 第二个板块：赛事 -->

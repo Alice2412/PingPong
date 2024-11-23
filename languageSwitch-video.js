@@ -1,18 +1,18 @@
-// 当前语言存储在 localStorage 中
-let currentLanguage = localStorage.getItem('language') || 'zh';
+// 获取当前语言设置或默认为中文
+let currentLanguage = localStorage.getItem('language') || 'cn';
 
 // 初始化页面语言
 document.addEventListener('DOMContentLoaded', () => {
     setLanguage(currentLanguage);
-    updateButtonText();
+    updateLanguageButton();
 });
 
 // 切换语言函数
 function toggleLanguage() {
-    currentLanguage = currentLanguage === 'zh' ? 'en' : 'zh';
+    currentLanguage = currentLanguage === 'cn' ? 'en' : 'cn';
     setLanguage(currentLanguage);
+    updateLanguageButton();
     localStorage.setItem('language', currentLanguage);
-    updateButtonText();
 }
 
 // 设置语言
@@ -26,8 +26,8 @@ function setLanguage(language) {
     });
 }
 
-// 更新按钮文字
-function updateButtonText() {
-    const button = document.querySelector('.language-switch');
-    button.textContent = currentLanguage === 'zh' ? 'English' : '中文';
+// 更新语言切换按钮文本
+function updateLanguageButton() {
+    const languageButton = document.querySelector('.language-switch');
+    languageButton.textContent = currentLanguage === 'cn' ? 'English' : '中文';
 } 

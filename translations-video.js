@@ -1,5 +1,5 @@
 const translations = {
-    zh: {
+    cn: {
         pageTitle: "精彩视频集锦",
         menuHome: "首页",
         menuEvents: "赛事",
@@ -10,10 +10,27 @@ const translations = {
         
         // 视频标题和描述
         season1Title: "第一季",
-        season1Desc: "2023世界乒乓球锦标赛精彩瞬间集锦",
+        season1Desc: "2005年上海世乒赛单项赛",
         season2Title: "第二季",
-        season2Desc: "东京奥运会乒乓球男单决赛精彩集锦",
-        // ... 添加其他视频的翻译
+        season2Desc: "2006年不莱梅世乒赛团体赛",
+        season3Title: "第三季",
+        season3Desc: "2007萨格勒布世乒赛单项赛",
+        season4Title: "第四季",
+        season4Desc: "2008广州世乒赛团体赛团体赛",
+        season5Title: "第五季",
+        season5Desc: "2009横滨世乒赛单项赛",
+        season6Title: "第六季",
+        season6Desc: "2010莫斯科世乒赛团体战",
+        season7Title: "第七季（许昕名场面）",
+        season7Desc: "2011鹿特丹世乒赛单项赛",
+        season8Title: "第八季",
+        season8Desc: "《谢谢》2013巴黎世乒赛单项赛",
+        season9Title: "第九季",
+        season9Desc: "《乒乓海洋》2015苏州世乒赛单项赛",
+        season10Title: "赛事解说集锦",
+        season10Desc: "《再出发》杜塞尔多夫世乒赛单项赛",
+        season11Title: "乒乓故事",
+        season11Desc: "国球的荣光 布达佩斯世乒赛单项赛"
     },
     en: {
         pageTitle: "Exciting Video Collection",
@@ -24,11 +41,28 @@ const translations = {
         menuHistory: "History",
         videoNotSupported: "Your browser does not support the video tag.",
         
-        // 视频标题和描述
+        // Video titles and descriptions
         season1Title: "Season 1",
-        season1Desc: "2023 World Table Tennis Championships Highlights",
+        season1Desc: "2005 Shanghai World Table Tennis Championships Singles",
         season2Title: "Season 2",
-        season2Desc: "Tokyo Olympics Men's Singles Final Highlights",
-        // ... 添加其他视频的翻译
+        season2Desc: "2006 Bremen World Table Tennis Championships Team Event",
+        season3Title: "Season 3",
+        season3Desc: "2007 Zagreb World Table Tennis Championships Singles",
+        season4Title: "Season 4",
+        season4Desc: "2008 Guangzhou World Table Tennis Championships Team Event",
+        season5Title: "Season 5",
+        season5Desc: "2009 Yokohama World Table Tennis Championships Singles",
+        season6Title: "Season 6",
+        season6Desc: "2010 Moscow World Table Tennis Championships Team Event",
+        season7Title: "Season 7 (Xu Xin Highlights)",
+        season7Desc: "2011 Rotterdam World Table Tennis Championships Singles",
+        season8Title: "Season 8",
+        season8Desc: "'Thank You' 2013 Paris World Table Tennis Championships Singles",
+        season9Title: "Season 9",
+        season9Desc: "'Table Tennis Ocean' 2015 Suzhou World Table Tennis Championships Singles",
+        season10Title: "Tournament Commentary Collection",
+        season10Desc: "'New Journey' Düsseldorf World Table Tennis Championships Singles",
+        season11Title: "Table Tennis Stories",
+        season11Desc: "Glory of National Sport - Budapest World Table Tennis Championships Singles"
     }
 }; 
