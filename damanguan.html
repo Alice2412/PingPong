@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="zh">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>乒乓球大满贯</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 20px;
+                background-color: #E6E8F0;
+            }
+
+            .container {
+                max-width: 1400px;
+                margin: 0 auto;
+            }
+
+            .header {
+                text-align: center;
+                margin-bottom: 40px;
+            }
+
+            .header h1 {
+                color: #1E3A8A;
+                font-size: 36px;
+            }
+
+            .menu {
+                display: flex;
+                justify-content: center;
+                gap: 20px;
+                margin-bottom: 40px;
+            }
+
+            .menu-item {
+                background-color: #1E3A8A;
+                color: white;
+                padding: 15px 30px;
+                border-radius: 10px;
+                text-decoration: none;
+                font-weight: bold;
+                transition: background-color 0.3s;
+            }
+
+            .menu-item:hover {
+                background-color: #2F4F9F;
+            }
+
+            .article-content {
+                background-color: white;
+                padding: 40px;
+                border-radius: 15px;
+                margin-bottom: 40px;
+                text-align: justify;
+                line-height: 1.8;
+                box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            }
+
+            .related-articles {
+                display: flex;
+                justify-content: center;
+                gap: 30px;
+                margin-top: 40px;
+            }
+
+            .related-link {
+                background-color: #DC2626;
+                color: white;
+                padding: 20px 40px;
+                border-radius: 10px;
+                text-decoration: none;
+                font-weight: bold;
+                transition: background-color 0.3s;
+                text-align: center;
+            }
+
+            .related-link:hover {
+                background-color: #BC1515;
+            }
+
+            .language-switch {
+                position: fixed;
+                top: 20px;
+                right: 20px;
+                background-color: #1E3A8A;
+                color: white;
+                padding: 10px 20px;
+                border-radius: 5px;
+                cursor: pointer;
+                border: none;
+                font-weight: bold;
+            }
+
+            .language-switch:hover {
+                background-color: #2F4F9F;
+            }
+        </style>
+        <script src="translations-dmg.js"></script>
+        <script src="languageSwitch-dmg.js"></script>
+    </head>
+    <body>
+        <button class="language-switch" onclick="switchLanguage()">EN/中文</button>
+        <div class="container">
+            <header class="header">
+                <h1 data-translate="page-title">乒乓球大满贯</h1>
+            </header>
+
+            <nav class="menu">
+                <a href="index.html" class="menu-item" data-translate="nav-home">首页</a>
+                <a href="#" class="menu-item" data-translate="nav-events">赛事</a>
+                <a href="top-players-cn-no-links.html" class="menu-item" data-translate="nav-players">运动员</a>
+                <a href="video-grid-page.html" class="menu-item" data-translate="nav-more">关于更多</a>
+                <a href="article-page.html" class="menu-item" data-translate="nav-history">历史</a>
+            </nav>
+
+            <article class="article-content">
+                <h2 data-translate="grand-slam-title">大满贯简介</h2>
+                <p data-translate="grand-slam-intro">在乒乓球坛中，"大满贯"指在奥林匹克运动会（奥运会）乒乓球项目、世界乒乓球锦标赛（世锦赛）与世界杯乒乓球赛（世界杯）的单打比赛中均取得第一名的成就。目前共计有11名乒乓球员（6男、5女）实现大满贯成就，而除了来自瑞典的扬-奥韦·瓦尔德内尔外，所有实现大满贯成就的乒乓球员皆来自中国大陆。</p>
+
+                <p data-translate="fastest-slowest">在11名实现大满贯成就的乒乓球员中，张继科以445日的历程成为"最快大满贯"，即实现大满贯成就需时最短的乒乓球员，而樊振东则以2862日的历程成为"最慢大满贯"，即实现大满贯成就需时最长的乒乓球员。</p>
+
+                <h3 data-translate="other-titles">其他成就类型</h3>
+                <p data-translate="other-intro">在中国大陆，除了"大满贯"外，尚有"双圈大满贯"、"全满贯"与"超级全满贯"等成就：</p>
+
+                <ul>
+                    <li data-translate="double-slam">·"双圈大满贯"指在奥运会、世锦赛与世界杯的单打比赛中均至少两度取得第一名的成就。目前，马龙是唯一实现双圈大满贯成就的男子乒乓球员，而张怡宁则是唯一实现双圈大满贯成就的女子乒乓球员。</li>
+                    <li data-translate="full-slam">·"全满贯"指除了实现大满贯成就外，也同时在中华人民共和国全国运动会（全运会）、全国乒乓球锦标赛（全锦赛）与国际乒联世界巡回赛总决赛（巡回赛总决赛）／世界乒乓球职业大联盟总决赛（WTT总决赛）的单打比赛中均取得第一名的成就。目前，男子乒乓球员中仅有马龙与樊振东二人实现全满贯成就，而所有实现大满贯成就的女子乒乓球员皆实现全满贯成就。</li>
+                    <li data-translate="super-slam">·"超级全满贯"指除了实现全满贯成就外，也同时在亚洲运动会（亚运会）、亚洲乒乓球锦标赛（亚锦赛）与亚洲杯乒乓球锦标赛（亚洲杯）的单打比赛中均取得第一名的成就。目前，所有实现全满贯成就的男子乒乓球员（马龙与樊振东）皆实现超级全满贯成就，而女子乒乓球员中则仅有邓亚萍一人实现超级全满贯成就。</li>
+                </ul>
+            </article>
+
+            <div class="related-articles">
+                <a href="video-grid-page.html" class="related-link" data-translate="related-videos">乒乒乓乓系列（视频）</a>
+                <a href="sportshuyu-page.html" class="related-link" data-translate="related-titles">体育术语</a>
+            </div>
+        </div>
+    </body>
+</html>

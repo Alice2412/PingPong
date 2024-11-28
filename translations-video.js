@@ -24,12 +24,12 @@ const translations = {
         season7Title: "第七季（许昕名场面）",
         season7Desc: "2011鹿特丹世乒赛单项赛",
         season8Title: "第八季",
-        season8Desc: "《谢谢》2013巴黎世乒赛单项赛",
+        season8Desc: "《谢谢》2013巴黎世���赛单项赛",
         season9Title: "第九季",
         season9Desc: "《乒乓海洋》2015苏州世乒赛单项赛",
-        season10Title: "赛事解说集锦",
+        season10Title: "第十季",
         season10Desc: "《再出发》杜塞尔多夫世乒赛单项赛",
-        season11Title: "乒乓故事",
+        season11Title: "第十一季",
         season11Desc: "国球的荣光 布达佩斯世乒赛单项赛"
     },
     en: {
@@ -54,15 +54,15 @@ const translations = {
         season5Desc: "2009 Yokohama World Table Tennis Championships Singles",
         season6Title: "Season 6",
         season6Desc: "2010 Moscow World Table Tennis Championships Team Event",
-        season7Title: "Season 7 (Xu Xin Highlights)",
+        season7Title: "Season 7 (Xu Xin's Highlights)",
         season7Desc: "2011 Rotterdam World Table Tennis Championships Singles",
         season8Title: "Season 8",
         season8Desc: "'Thank You' 2013 Paris World Table Tennis Championships Singles",
         season9Title: "Season 9",
-        season9Desc: "'Table Tennis Ocean' 2015 Suzhou World Table Tennis Championships Singles",
-        season10Title: "Tournament Commentary Collection",
+        season9Desc: "'Ping Pong Ocean' 2015 Suzhou World Table Tennis Championships Singles",
+        season10Title: "Season 10",
         season10Desc: "'New Journey' Düsseldorf World Table Tennis Championships Singles",
-        season11Title: "Table Tennis Stories",
+        season11Title: "Season 11",
         season11Desc: "Glory of National Sport - Budapest World Table Tennis Championships Singles"
     }
 }; 

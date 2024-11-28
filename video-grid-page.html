@@ -117,6 +117,28 @@
         .language-switch:hover {
             background-color: #2F4F9F;
         }
+
+        /* 在 style 标签内添加以下样式 */
+        .related-articles {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+        .related-link {
+            background-color: #DC2626;
+            color: white;
+            padding: 20px 40px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s;
+            text-align: center;
+        }
+        .related-link:hover {
+            background-color: #BC1515;
+        }
     </style>
 </head>
 <body>
@@ -252,7 +274,7 @@
                     <span data-translate="videoNotSupported">您的浏览器不支持 video 标签。</span>
                 </video>
                 <div class="video-info">
-                    <h3 class="video-title" data-translate="season10Title">赛事解说集锦</h3>
+                    <h3 class="video-title" data-translate="season10Title">第十季</h3>
                     <p class="video-description" data-translate="season10Desc">《再出发》杜塞尔多夫世乒赛单项赛</p>
                 </div>
             </div>
@@ -264,10 +286,15 @@
                     <span data-translate="videoNotSupported">您的浏览器不支持 video 标签。</span>
                 </video>
                 <div class="video-info">
-                    <h3 class="video-title" data-translate="season11Title">乒乓故事</h3>
+                    <h3 class="video-title" data-translate="season11Title">第十一季</h3>
                     <p class="video-description" data-translate="season11Desc">国球的荣光 布达佩斯世乒赛单项赛</p>
                 </div>
             </div>
+        </div>
+
+        <div class="related-articles">
+            <a href="sportshuyu-page.html" class="related-link" data-translate="relatedTerms">体育术语</a>
+            <a href="athlete-titles.html" class="related-link" data-translate="relatedTitles">运动员称号</a>
         </div>
     </div>
 
