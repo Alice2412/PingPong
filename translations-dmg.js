@@ -24,7 +24,7 @@ const translations = {
         
         // 相关链接
         'related-videos': '乒乒乓乓系列（视频）',
-        'related-titles': '运动员称号'
+        'related-titles': '体育术语'
     },
     'en': {
         'page-title': 'Table Tennis Grand Slam',
@@ -36,21 +36,21 @@ const translations = {
         
         // Grand Slam content
         'grand-slam-title': 'Introduction to Grand Slam',
-        'grand-slam-intro': 'In table tennis, a "Grand Slam" refers to winning singles titles in the Olympic Games, World Table Tennis Championships, and World Cup. Currently, 11 players (6 men, 5 women) have achieved the Grand Slam, with Jan-Ove Waldner from Sweden being the only non-Chinese player to accomplish this feat.',
+        'grand-slam-intro': 'In table tennis, a "Grand Slam" refers to winning singles titles in the Olympic Games, World Table Tennis Championships, and World Cup. Currently, 11 players (6 men, 5 women) have achieved the Grand Slam, and except for Jan-Ove Waldner from Sweden, all Grand Slam winners are from mainland China.',
         
-        'fastest-slowest': 'Among the 11 Grand Slam achievers, Zhang Jike became the "Fastest Grand Slam" winner, completing it in 445 days, while Fan Zhendong became the "Slowest Grand Slam" winner, taking 2,862 days to achieve this milestone.',
+        'fastest-slowest': 'Among the 11 Grand Slam achievers, Zhang Jike completed his Grand Slam in the shortest time of 445 days, while Fan Zhendong took the longest at 2,862 days.',
         
         'other-titles': 'Other Achievement Types',
-        'other-intro': 'In mainland China, besides the "Grand Slam," there are other achievements such as "Double Grand Slam," "Full Grand Slam," and "Super Grand Slam":',
+        'other-intro': 'In mainland China, besides the "Grand Slam," there are also "Double Grand Slam," "Full Grand Slam," and "Super Grand Slam" achievements:',
         
-        'double-slam': '· "Double Grand Slam" means winning singles titles at least twice in each of the Olympics, World Championships, and World Cup. Currently, Ma Long is the only male player to achieve this, while Zhang Yining is the only female player to do so.',
+        'double-slam': '·"Double Grand Slam" means winning singles titles at least twice in each of the Olympics, World Championships, and World Cup. Currently, Ma Long is the only male player to achieve this, while Zhang Yining is the only female player.',
         
-        'full-slam': '· "Full Grand Slam" includes winning the Grand Slam plus singles titles in the Chinese National Games, Chinese National Championships, and ITTF World Tour Grand Finals/WTT Finals. Currently, only Ma Long and Fan Zhendong among men have achieved this, while all female Grand Slam winners have achieved the Full Grand Slam.',
+        'full-slam': '·"Full Grand Slam" includes winning the Grand Slam plus singles titles in the National Games, National Championships, and ITTF World Tour Grand Finals/WTT Finals. Currently, only Ma Long and Fan Zhendong among men have achieved this, while all female Grand Slam winners have achieved the Full Grand Slam.',
         
-        'super-slam': '· "Super Grand Slam" means achieving the Full Grand Slam plus singles titles in the Asian Games, Asian Championships, and Asian Cup. Currently, all male Full Grand Slam achievers (Ma Long and Fan Zhendong) have achieved the Super Grand Slam, while Deng Yaping is the only female player to achieve this feat.',
+        'super-slam': '·"Super Grand Slam" means achieving the Full Grand Slam plus singles titles in the Asian Games, Asian Championships, and Asian Cup. Currently, all male Full Grand Slam achievers (Ma Long and Fan Zhendong) have achieved the Super Grand Slam, while Deng Yaping is the only female player to achieve this.',
         
         // Related links
         'related-videos': 'Ping Pong Series (Videos)',
-        'related-titles': 'Player Titles'
+        'related-titles': 'Sports Terms'
     }
 }; 

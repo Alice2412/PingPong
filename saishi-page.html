@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="zh">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>关于赛事</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 20px;
+                background-color: #E6E8F0;
+            }
+
+            .container {
+                max-width: 1400px;
+                margin: 0 auto;
+            }
+
+            .header {
+                text-align: center;
+                margin-bottom: 40px;
+            }
+
+            .header h1 {
+                color: #1E3A8A;
+                font-size: 36px;
+            }
+
+            .menu {
+                display: flex;
+                justify-content: center;
+                gap: 20px;
+                margin-bottom: 40px;
+            }
+
+            .menu-item {
+                background-color: #1E3A8A;
+                color: white;
+                padding: 15px 30px;
+                border-radius: 10px;
+                text-decoration: none;
+                font-weight: bold;
+                transition: background-color 0.3s;
+            }
+
+            .menu-item:hover {
+                background-color: #2F4F9F;
+            }
+
+            .article-content {
+                background-color: white;
+                padding: 40px;
+                border-radius: 15px;
+                margin-bottom: 40px;
+                text-align: justify;
+                line-height: 1.8;
+                box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            }
+
+            .related-articles {
+                display: flex;
+                justify-content: center;
+                gap: 30px;
+                margin-top: 40px;
+            }
+
+            .related-link {
+                background-color: #DC2626;
+                color: white;
+                padding: 20px 40px;
+                border-radius: 10px;
+                text-decoration: none;
+                font-weight: bold;
+                transition: background-color 0.3s;
+                text-align: center;
+            }
+
+            .related-link:hover {
+                background-color: #BC1515;
+            }
+
+            .language-switch {
+                position: fixed;
+                top: 20px;
+                right: 20px;
+                background-color: #1E3A8A;
+                color: white;
+                padding: 10px 20px;
+                border-radius: 5px;
+                cursor: pointer;
+                border: none;
+                font-weight: bold;
+            }
+
+            .language-switch:hover {
+                background-color: #2F4F9F;
+            }
+        </style>
+        <script src="translations-contest.js"></script>
+        <script src="languageSwitch-contest.js"></script>
+    </head>
+    <body>
+        <button class="language-switch" onclick="switchLanguage()">EN/中文</button>
+        <div class="container">
+            <header class="header">
+                <h1 data-translate="page-title">赛事介绍</h1>
+            </header>
+
+            <nav class="menu">
+                <a href="index.html" class="menu-item" data-translate="nav-home">首页</a>
+                <a href="#" class="menu-item" data-translate="nav-events">赛事</a>
+                <a href="top-players-cn-no-links.html" class="menu-item" data-translate="nav-players">运动员</a>
+                <a href="video-grid-page.html" class="menu-item" data-translate="nav-more">关于更多</a>
+                <a href="article-page.html" class="menu-item" data-translate="nav-history">历史</a>
+            </nav>
+
+            <article class="article-content">
+                <h3 id="worlds" data-translate="worlds-title">1. 世锦赛</h3>
+                <p data-translate="worlds-intro">世界乒乓球锦标赛，简称"世乒赛"。是由国际乒乓球联合会主办的乒乓球赛事之一。每届比赛由国际乒乓球联合会授权比赛地乒乓球协会主办，具有广泛的影响力。</p>
+                <p data-translate="worlds-format">世乒赛为男女单打，男女双打和混双以及男女团体共七项赛事。首届于1926年12月在英国伦敦举行，从1959年的第二十五届开始改为每两年举办一次。它是国际乒乓球联合会主办的一项最高水平的世界乒乓球大赛，具有广泛的影响力。它与乒乓球世界杯、奥运会并称为"乒乓球运动的三大赛事"。</p>
+                <p data-translate="worlds-2025">2022年12月，卡塔尔多哈战胜西班牙阿利坎特，当选为2025年世界乒乓球锦标赛举办地。</p>
+                <p data-translate="worlds-2026">2023年8月，英国伦敦获得2026年世界乒乓球锦标赛团体赛举办权。伦敦是1926年首届世乒赛举办城市，世乒赛在百年之后重回伦敦。</p>
+                <p data-translate="worlds-hawkeye">2024年2月，国际乒联宣布：2025年世乒赛决赛将使用鹰眼技术。</p>
+
+                <h3 id="worldcup" data-translate="worldcup-title">2. 世界杯</h3>
+                <p data-translate="worldcup-intro">国际乒联世界杯（英文：ITTF World Cup）是由国际乒乓球联合会主办的乒乓球赛事之一，与奥运会、世界乒乓球锦标赛并称为世界乒坛三大赛事。</p>
+                <p data-translate="worldcup-format">该项顶级赛事保持一年一度的举办传统，包含男子、女子、男子团体、女子团体及混合团体等五个分项。</p>
+                <p data-translate="worldcup-mixed">第2届国际乒联混合团体世界杯将于2024年12月1日-8日在中国成都举行。</p>
+                <p data-translate="worldcup-singles">第43届国际乒联男子世界杯及第26届国际乒联女子世界杯将于2025年4月14日至20日在中国澳门举行。</p>
+
+                <h3 id="wtt" data-translate="wtt-title">3. WTT</h3>
+                <p data-translate="wtt-intro">世界乒乓球职业大联盟（World Table Tennis，简称WTT，或者WTT世界乒联或世界乒联）由国际乒乓球联合会（ITTF）于2019年8月创立，是ITTF的商业和赛事公司。史蒂夫·丹顿为WTT首席执行官，中国乒乓球协会主席刘国梁任WTT理事会主席。</p>
+                <p data-translate="wtt-events">WTT赛事系列包含四项顶级赛事：WTT大满贯赛、WTT世界杯决赛、WTT冠军赛和WTT挑战赛系列。WTT世界杯决赛的世界排名积分仅次于奥运会、世界乒乓球锦标赛以及WTT大满贯，是WTT赛事系列的重要组成部分。世界乒乓球职业大联盟总决赛并非国际乒联体系下的乒乓球世界杯赛事，而是商业赛。</p>
+
+                <h3 id="olympics" data-translate="olympics-title">4. 奥运会</h3>
+                <p data-translate="olympics-intro">奥运会乒乓球比赛，即奥运会上乒乓球项目的比赛。因为参赛名额受限制，参赛者需经过层层选拔方能入选，尤其是单打项目的参加者更是需要经过严苛的选拔机制，也是最难卫冕的奥运项目之一，是乒乓球类关注度、含金量最高的赛事。它与世界乒乓球锦标赛、乒乓球世界杯合称三大乒乓球体育赛事。</p>
+
+                <h3 id="asian" data-translate="asian-title">5. 亚锦赛</h3>
+                <p data-translate="asian-intro">2024年亚洲乒乓球锦标赛（27th ITTF-Asian Table Tennis Championships 2024），是由亚洲乒乓球联合会组织并授权哈萨克斯坦乒乓球协会主办的第27届亚洲乒乓球锦标赛，该赛事每两年举办一次，是亚洲地区最高级别的乒乓球锦标赛，该赛事也是2025年世界乒乓球锦标赛资格赛，于2024年10月6日至10月13日在哈萨克斯坦阿斯塔纳举行。</p>
+                <p data-translate="asian-host">2023年9月，哈萨克斯坦阿斯塔纳获得第27届亚洲乒乓球锦标赛举办权。该赛事共设置设置男团、女团、男单、女单、男双、女双和混双七个单项。</p>
+
+                <h3 id="others" data-translate="others-title">6. 其他</h3>
+                <p data-translate="others-content">除去上述几个乒乓球赛事，还有一些其他的，比如说青奥会，全运会，亚运会，亚锦赛等</p>
+            </article>
+        </div>
+    </body>
+</html>
